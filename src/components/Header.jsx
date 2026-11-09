@@ -4,7 +4,7 @@ export default function Header({ music, onMenu, menuOpen }) {
   return (
     <header className="site-header">
       <a href="#home" className="monogram" aria-label={`${couple.groom} and ${couple.bride} home`}>
-        <img className="couple-logo" src={media.logo} alt={couple.monogramAlt} width="1284" height="1225" />
+        <img className="couple-logo" src={media.logo} alt={couple.monogramAlt} width="1200" height="1200" />
       </a>
       <nav aria-label="Main navigation">
         <a href="#gallery">Our moments</a>

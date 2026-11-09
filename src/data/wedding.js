@@ -12,17 +12,16 @@ export const couple = {
 }
 
 export const wedding = {
-  // Countdown target: Departure of Barat, 4 Dec 2026, 7:00 PM IST
+  // Countdown target: wedding day, 4 Dec 2026, 7:00 PM IST (not displayed)
   target: '2026-12-04T19:00:00+05:30',
   weekday: 'FRIDAY',
   dayMonth: '4th December',
   year: '2026',
-  revealTime: 'Barat departs 7:00 PM',
   entranceDate: '4 DECEMBER 2026 · UDHAMPUR (J&K)',
-  countdownLabel: 'Countdown to 4 December 2026, 7 PM India time',
-  countdownCaption: '4 December 2026 · 7:00 PM IST',
+  countdownLabel: 'Countdown to 4 December 2026',
+  countdownCaption: '4 December 2026 · IST',
   revealedLabel: 'Friday, 4th December 2026',
-  revealedStatus: 'Wedding ceremony: Friday, 4th December 2026. Departure of Barat at 7:00 PM, India time.',
+  revealedStatus: 'Wedding ceremony: Friday, 4th December 2026.',
   footerDate: '4 DECEMBER 2026 · UDHAMPUR (J&K)',
 }
 
@@ -40,7 +39,7 @@ export const media = {
 
 export const invitation = {
   shloka: ['वक्रतुण्ड महाकाय सूर्यकोटि समप्रभः।', 'निर्विघ्नं कुरुमेदेव सर्वकार्येषु सर्वदा॥'],
-  blessingsOf: ['With the heavenly blessings of', 'Late Smt. Sheela Wanti & Late Sh. Sahib Ram Bareja'],
+  blessingsOf: ['With the heavenly blessings of Grand Parents', 'Late Smt. Sheela Wanti & Late Sh. Sahib Ram Bareja'],
   hosts: ['Smt. Nirmal & Sh. Suresh Bareja', 'solicit the honour of your gracious presence to shower blessings on the auspicious wedding ceremony of their loving son'],
   eyebrow: 'We are getting married',
   blessing: 'Your gracious presence and blessings will make this joyous occasion even more special as two hearts unite and begin a beautiful journey of togetherness.',
@@ -98,9 +97,9 @@ export const venueAddress = [
 export const events = [
   {
     id: 'chowki', title: 'Mata Ki Chowki & Dinner', date: 'Friday, 27 November 2026', short: '27 NOVEMBER 2026',
-    time: 'Chowki · 6:00 PM · Dinner · 9:00 PM', color: '#285345', venue: 0,
+    time: 'Chowki · 6:00 PM · Dinner · 9:00 PM', color: '#823b25', venue: 0,
     desc: 'Join the Bareja family at our residence in Rohtak for Mata Ki Chowki, an evening of devotion and blessings, followed by dinner.',
-    image: 'assets/bhaat-illustrated.webp',
+    image: 'assets/mata-ki-chowki-illustrated.webp',
   },
   {
     id: 'sangeet', title: 'Mehandi & Sangeet', date: 'Wednesday, 2 December 2026', short: '2 DECEMBER 2026',

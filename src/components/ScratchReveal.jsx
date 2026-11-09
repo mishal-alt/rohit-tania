@@ -89,7 +89,6 @@ export default function ScratchReveal() {
           <span>{wedding.weekday}</span>
           <strong>{wedding.dayMonth}</strong>
           <b>{wedding.year}</b>
-          <em>{wedding.revealTime}</em>
         </div>
         <canvas
           ref={canvas} id="scratchCanvas"
