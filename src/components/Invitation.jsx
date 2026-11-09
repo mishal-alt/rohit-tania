@@ -35,7 +35,7 @@ export default function Invitation({ opened }) {
         <p className="family-invitation">{invitation.blessingsOf[0]}<br />{invitation.blessingsOf[1]}</p>
         <p className="family-invitation">{invitation.hosts[0]}<br />{invitation.hosts[1]}</p>
         <p className="eyebrow">{invitation.eyebrow}</p>
-        <img className="couple-logo" src={media.logo} alt={couple.monogramAlt} width="1200" height="1200" />
+        <img className="couple-logo" src={media.logo} alt={couple.monogramAlt} width="1284" height="1225" />
         <div className="couple">
           <h2>{couple.groom}</h2>
           <p>{couple.groomParents}</p>

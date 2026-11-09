@@ -70,7 +70,7 @@ export default function Opening({ onStart, onFinish }) {
       <div className="opening-glass" />
       <video ref={tv} id="transitionVideo" playsInline muted preload="auto" poster={media.transitionPoster} aria-hidden="true" hidden />
       <div className="entrance-copy">
-        <img className="couple-logo" src={media.logo} alt={couple.monogramAlt} width="1200" height="1200" />
+        <img className="couple-logo" src={media.logo} alt={couple.monogramAlt} width="1284" height="1225" />
         <p className="hindi" lang="hi">॥ शुभ विवाह ॥</p>
         <p className="eyebrow">TOGETHER WITH OUR FAMILIES</p>
         <h1><span>{couple.groom}</span><i>&amp;</i><span>{couple.bride}</span></h1>

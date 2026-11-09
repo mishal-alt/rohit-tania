@@ -59,10 +59,10 @@
 .couple-logo{display:block;width:160px;height:auto;object-fit:contain;margin:14px auto 20px}
 .entrance-copy>.couple-logo{width:clamp(100px,17vh,165px);margin:0 auto 14px}
 .site-header .monogram{display:flex;align-items:center;padding:0}
-.site-header .monogram .couple-logo{width:60px;height:60px;margin:0}
+.site-header .monogram .couple-logo{width:62px;height:58px;margin:0}
 #mobileMenu .couple-logo{width:110px;margin:5px auto 24px}
 .formal-panel>.couple-logo{width:150px;margin:12px auto 20px}
-@media(max-width:600px){.entrance-copy>.couple-logo{width:105px;margin-bottom:8px}.formal-panel>.couple-logo{width:130px}.site-header .monogram .couple-logo{width:52px;height:52px}}
+@media(max-width:600px){.entrance-copy>.couple-logo{width:105px;margin-bottom:8px}.formal-panel>.couple-logo{width:130px}.site-header .monogram .couple-logo{width:52px;height:50px}}
 @media(max-height:740px){.entrance-copy>.couple-logo{width:80px;margin-bottom:5px}.entrance-copy h1{font-size:clamp(2.8rem,9vh,4.8rem)}}
 
 
