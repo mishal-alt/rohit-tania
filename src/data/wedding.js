@@ -19,7 +19,7 @@ export const wedding = {
   year: '2026',
   entranceDate: '4 DECEMBER 2026 · UDHAMPUR (J&K)',
   countdownLabel: 'Countdown to 4 December 2026',
-  countdownCaption: '4 December 2026 · IST',
+  countdownCaption: '4 December 2026',
   revealedLabel: 'Friday, 4th December 2026',
   revealedStatus: 'Wedding ceremony: Friday, 4th December 2026.',
   footerDate: '4 DECEMBER 2026 · UDHAMPUR (J&K)',
@@ -103,9 +103,9 @@ export const events = [
   },
   {
     id: 'sangeet', title: 'Mehandi & Sangeet', date: 'Wednesday, 2 December 2026', short: '2 DECEMBER 2026',
-    time: '7:00 PM', color: '#722c42', venue: 0,
+    time: '7:00 PM', color: '#01351e', venue: 0,
     desc: 'An evening of mehandi, music, laughter and dance with family and friends at our residence.',
-    image: 'assets/cocktail-dinner-illustrated.webp',
+    image: 'assets/mehendi-sangeet-illustrated.webp',
   },
   {
     id: 'haldi', title: 'Haldi, Ghadi Ghadoli & Sehra Bandi', date: 'Friday, 4 December 2026', short: '4 DECEMBER 2026',
