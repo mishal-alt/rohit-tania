@@ -78,3 +78,9 @@
 .photo-blank:hover{transform:rotate(-1deg)}
 .photo-blank:nth-child(even):hover{transform:rotate(1deg)}
 .blank-frame{width:100%;background:#fff}
+
+/* Gallery with three photos: a centred 3-column grid, one column on tablet/phone */
+.gallery-track{columns:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px;align-items:center;max-width:1100px}
+.gallery-track .photo{margin:0;display:block}
+@media(max-width:900px){.gallery-track{grid-template-columns:1fr;max-width:440px;padding-left:24px;padding-right:24px;gap:26px}}
+@media(max-width:600px){.gallery-track{max-width:380px;padding:30px 22px 12px;gap:22px}}

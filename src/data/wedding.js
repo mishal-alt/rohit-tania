@@ -128,14 +128,9 @@ export const events = [
 ]
 
 // ---- Gallery ----
-// Photos are blank for now: each card shows an empty white frame.
-// To add a photo, drop the file in /public/assets and set `src` (e.g. 'assets/gallery-01.webp'); the card then becomes clickable.
-const captions = ['A little laughter', 'Celebrating together', 'You and me', 'My favourite person', 'Better, together', 'Moments to treasure', 'Adventures with you', 'Our kind of forever', 'Side by side', 'Every day, us']
-const sizes = [[1350, 1800], [1350, 1800], [1600, 1066], [1350, 1800], [1170, 1560], [960, 1280], [1350, 1800], [1012, 1800], [1200, 1800], [1350, 1800]]
-export const gallery = captions.map((caption, i) => ({
-  caption,
-  description: `Rohit and Tania together — photograph ${i + 1}`,
-  src: null,
-  width: sizes[i][0],
-  height: sizes[i][1],
-}))
+// Three couple photos. To change one, replace the file in /public/assets (or edit `src`) and update width/height.
+export const gallery = [
+  { caption: 'Better, together', src: 'assets/couple-01.webp', width: 960, height: 1280 },
+  { caption: 'Moments to treasure', src: 'assets/couple-02.webp', width: 959, height: 1280 },
+  { caption: 'My favourite person', src: 'assets/couple-03.webp', width: 719, height: 1280 },
+].map((p, i) => ({ ...p, description: `Rohit and Tania together — photograph ${i + 1}` }))
