@@ -41,7 +41,6 @@ export const invitation = {
   shloka: ['वक्रतुण्ड महाकाय सूर्यकोटि समप्रभः।', 'निर्विघ्नं कुरुमेदेव सर्वकार्येषु सर्वदा॥'],
   blessingsOf: ['With the heavenly blessings of Grand Parents', 'Late Smt. Sheela Wanti & Late Sh. Sahib Ram Bareja'],
   hosts: ['Smt. Nirmal & Sh. Suresh Bareja', 'solicit the honour of your gracious presence to shower blessings on the auspicious wedding ceremony of their loving son'],
-  eyebrow: 'We are getting married',
   blessing: 'Your gracious presence and blessings will make this joyous occasion even more special as two hearts unite and begin a beautiful journey of togetherness.',
 }
 
